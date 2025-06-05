@@ -27,7 +27,9 @@ A sleek, modern, and responsive **business site** built for [Revive Your Brand](
 
 
 git clone https://github.com/TalhaIqbal3322/revive-your-brand.git
+
 cd revive-your-brand
+
 Open index.html in your browser.
 
 ---
@@ -43,3 +45,5 @@ Email: talhaiqbal.digitalnexus@gmail.com
 📄 License
 ---
 This project is owned and developed for demonstration purposes for Client Revive Your Brand. All rights reserved.
+
+---
