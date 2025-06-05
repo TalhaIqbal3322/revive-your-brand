@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Jockey One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+.header {
+    background-color: #cfd1d0;
+    padding: 10px 0;
+    border: 2px solid white;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.header h1 {
+    color: black;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 24px;
+}
+
+.logo-section {
+    margin-top: 30px;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.logo-section p {
+    font-size: 18px;
+    font-family: 'Jockey One', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.button-section {
+    margin-top: 50px;
+}
+
+.button {
+    font-size: 18px;
+    font-family: 'Jockey One', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #333;
+    color: white;
+    font-family: 'Jockey One', sans-serif;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.back-button i {
+    margin-right: 8px;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .logo-section p {
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+
+    .back-button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .logo-section p {
+        font-size: 14px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .back-button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+        bottom: 15px;
+        left: 15px;
+    }
+}
